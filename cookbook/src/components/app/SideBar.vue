@@ -1,38 +1,3 @@
-<!-- <template>
-  <ul class="sidenav app-sidenav open">
-    <router-link active-class="router-link-active" to="/" exact>
-      <li>
-        <a class="waves-effect waves-orange pointer">puk</a>
-      </li>
-    </router-link>
-    <router-link active-class="active" to="/">
-      <li>
-        <a class="waves-effect waves-orange pointer">Счет</a>
-      </li>
-    </router-link>
-    <router-link routerLinkActive="active" to="/history">
-      <li>
-        <a class="waves-effect waves-orange pointer">История</a>
-      </li>
-    </router-link>
-    <router-link active-class="active" to="/planning">
-      <li>
-        <a class="waves-effect waves-orange pointer">Планирование</a>
-      </li>
-    </router-link>
-    <router-link active-class="active" to="/record">
-      <li>
-        <a class="waves-effect waves-orange pointer">Новая запись</a>
-      </li>
-    </router-link>
-    <router-link active-class="active" to="/categories">
-      <li>
-        <a class="waves-effect waves-orange pointer">Категории</a>
-      </li>
-    </router-link>
-  </ul>
-</template> -->
-
 <template>
   <ul class="sidenav app-sidenav" :class="{ open: modelValue }">
     <!-- Используем router-link для навигации по ссылкам -->
